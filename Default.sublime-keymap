@@ -1,0 +1,6 @@
+[
+    {
+        "keys": ["alt+]"],
+        "command": "swap_selection"
+    }
+]
