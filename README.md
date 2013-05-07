@@ -19,7 +19,7 @@ Say each of the words following are selected separately:
 foo bar baz
 ```
 
-1) By typing `alt + ]', the order is changed to:
+1) By typing `alt + ]`, the order is changed to:
 
 ```
 baz foo bar
@@ -27,7 +27,7 @@ baz foo bar
 
 The selections are cycling-shuffled to right direction.
 
-2) By typing `alt + [', the order is changed to:
+2) By typing `alt + [`, the order is changed to:
 
 ```
 bar baz foo
@@ -35,7 +35,7 @@ bar baz foo
 
 The selections are cycling-shuffled to left direction.
 
-3) By typing `alt + [', the order is changed to:
+3) By typing `alt + =`, the order is changed to:
 
 ```
 baz bar foo
