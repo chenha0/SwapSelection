@@ -1,6 +1,17 @@
 [
     {
         "keys": ["alt+]"],
-        "command": "swap_selection"
+        "command": "swap_selection",
+        "args": {"manner" : 1}
+    },
+    {
+        "keys": ["alt+["],
+        "command": "swap_selection",
+        "args": {"manner" : 2}
+    },
+    {
+        "keys": ["alt+="],
+        "command": "swap_selection",
+        "args": {"manner" : 3}
     }
 ]

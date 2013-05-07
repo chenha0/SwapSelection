@@ -8,22 +8,37 @@ Currently the plugin is under development.
 
 Usage:
 ------
+Swapping between two selections is easy. All of `alt + ]`, `alt + [`, `alt + =`
+will do. 
 
-Say each of the words following are selected separately.
+Note that when it comes to 3 or more, the 3 shortcuts behave differentely.
 
-```
-foo
-bar
-baz
-```
-
-By typing `alt + ]', the order is changed to:
+Say each of the words following are selected separately:
 
 ```
-baz
-foo
-bar
+foo bar baz
 ```
-Swapping between two selections is plain to understand. However note that when it
-comes to 3 or more, the swapping actually performs a shifting, which means the 
-direction of shifting is sensitive.
+
+1. By typing `alt + ]', the order is changed to:
+
+```
+baz foo bar
+```
+
+The selections are cycling-shuffled to right direction.
+
+2. By typing `alt + [', the order is changed to:
+
+```
+bar baz foo
+```
+
+The selections are cycling-shuffled to left direction.
+
+3. By typing `alt + [', the order is changed to:
+
+```
+baz bar foo
+```
+
+The selections are reversely placed.
