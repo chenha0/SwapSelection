@@ -1,0 +1,17 @@
+[
+    {
+        "caption" : "Shift Selections Right",
+        "command": "swap_selection",
+        "args": {"manner" : 1}
+    },
+    {
+        "caption" : "Shift Selections Left",
+        "command": "swap_selection",
+        "args": {"manner" : 2}
+    },
+    {
+        "caption" : "Reverse Selections",
+        "command": "swap_selection",
+        "args": {"manner" : 3}
+    }
+]
