@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "SwapSelection",
+            "description": "Swapping content of multiple selection regions.",
+            "author": "chenha0",
+            "homepage": "https://github.com/chenha0/SwapSelection",
+            "last_modified": "2013-5-7 22:20:00",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "1.0.0",
+                        "url": "https://nodeload.github.com/chenha0/SwapSelection/zip/1.0.0"
+                    }
+                ]
+            }
+        }
+    ]
+}
